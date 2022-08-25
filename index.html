@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="/face.css">
+</head>
+<body>
+   
+    
+
+
+ <section class="calc">
+
+  <table>
+
+       <h1 class="title">Calculadora</h1>
+
+    <p class="res" id="res"></p>
+    <tr>
+        <td><button id="btn" onclick="del('')">C</button></td>
+        <td><button id="btn" onclick="limpar('')"><-</button></td>
+        <td><button id="btn" onclick="btn('/')">/</button></td>
+        <td><button id="btn" onclick="btn('*')">*</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn" onclick="btn('7')">7</button></td>
+        <td><button id="btn" onclick="btn('8')">8</button></td>
+        <td><button id="btn" onclick="btn('9')">9</button></td>
+        <td><button id="btn" onclick="btn('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn" onclick="btn('4')">4</button></td>
+        <td><button id="btn" onclick="btn('5')">5</button></td>
+        <td><button id="btn" onclick="btn('6')">6</button></td>
+        <td><button id="btn" onclick="btn('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button id="btn" onclick="btn('1')">1</button></td>
+        <td><button id="btn" onclick="btn('2')">2</button></td>
+        <td><button id="btn" onclick="btn('3')">3</button></td>
+        <td rowspan="2"><button style="height:85px" id="btn" onclick="result('')">=</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button style="width:113px ;" id="btn" onclick="btn('0')">0</button></td>
+        <td><button id="btn" onclick="btn('.')">.</button></td>
+    </tr>
+ </table>
+     
+ </section>
+
+
+
+
+    <script src="/eng.js"></script>
+</body>
+</html>

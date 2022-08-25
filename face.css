@@ -1,0 +1,51 @@
+
+body{background-color: brown;}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.calc{
+    background-color: black;
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+#btn{
+    position: relative;
+    width: 55px;
+    height: 40px;
+   margin: 0.5px;
+   border: 0;
+   background-color: darkred;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(191, 4, 4)
+}
+
+.res{
+    border-radius: 10px;
+    height:30px;
+    background-color: white;
+    padding: 1px 10px;
+    font-size: 28px;
+    text-align:right
+    
+}
+
+td{padding: 0;}
+
